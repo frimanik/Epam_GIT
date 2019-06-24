@@ -24,7 +24,7 @@ class AVL <Key extends Comparable<Key>, Value> {
         }
     }
 
-//  YbeiTe MeHR
+
 
     private Node root;
 
@@ -85,7 +85,7 @@ class AVL <Key extends Comparable<Key>, Value> {
         return null;
     }
 
-    //forinsycn
+   
 
     public Node getFirstNode(){
         return min(root);
@@ -175,7 +175,7 @@ class AVL <Key extends Comparable<Key>, Value> {
         }
         return node;
     }
-// ponaprihodyat ponimaesh li.
+
     public void add(Key key, Value value) {
         root = add(root, key, value, null);
     }
@@ -279,36 +279,12 @@ class AVL <Key extends Comparable<Key>, Value> {
 
 }
 
-/*    class  LinkedList extends java.util.LinkedList {
 
-    void Get(){
-
-    }
-
-    void Set(){
-
-
-    }
-
-    void Add(){
-
-listing ABC(int a, string
-) {
-
-
-    void Delete(){
-
-
-    }
-
-
-}
-*/
 
    class Main {
     public static <Value, Key extends Comparable<Key>> void main(String[] args) {
         AVL<Integer, Integer> tree = new AVL<>();
- // Kinn MI Kinn MI
+
         tree.add(12, 11);
         tree.print();
         System.out.println("----------");
