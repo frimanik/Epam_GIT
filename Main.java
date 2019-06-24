@@ -327,7 +327,9 @@ class AVL <Key extends Comparable<Key>, Value> {
 
         System.out.println("----------");
         tree.print();
-
+        
+        string a="Hello world;
+        System.out.println(a);
     }
 }
 
